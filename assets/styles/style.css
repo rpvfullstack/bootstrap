@@ -1,5 +1,5 @@
 :root{
-    --btWhite: #000;
+    --btblack: #000;
     --btGreen-100: #000;
     --btGreen-200: #000;
     --btGreen-300: #000;
@@ -31,7 +31,41 @@
 .titleSection2{
     display: flex;
     justify-content: center;
+    margin-top:15rem;
+
 }
+
+.footer{
+    padding: 20px 0;
+}
+
+.footer, .rSociais{
+    text-align: center;
+    padding-top: 25px;
+    color: #4b4c4d;
+    /* background-color: var(--btblack); */
+}
+
+.footer .rSociais a{
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+  }
+
+
 
 
 
