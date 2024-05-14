@@ -1,8 +1,9 @@
 :root{
-    --btblack: #000;
-    --btGreen-100: #000;
-    --btGreen-200: #000;
-    --btGreen-300: #000;
+    --btBlack: #000;
+    --btWhite: #fff;
+    --btOrange: #cd7f19;
+    --btGray: #4b4c4d;
+
  
 }
 
@@ -35,20 +36,20 @@
 
 }
 
-.footer{
+.footer2{
     padding: 20px 0;
 }
 
-.footer, .rSociais{
+.footer2, .rSociais{
     text-align: center;
     padding-top: 25px;
-    color: #4b4c4d;
+    color: --var(--btGray);
     /* background-color: var(--btblack); */
 }
 
-.footer .rSociais a{
-    font-size: 1.5rem;
-    border: 1px solid #ccc;
+.footer2 .rSociais a{
+    font-size: 1.7rem;
+    border: 1px solid var(--btGray);
     width: 40px;
     height: 40px;
     line-height: 38px;
@@ -56,6 +57,8 @@
     margin: 0 10px;
     text-align: center;
     border-radius: 50%;
+    color: var(--btGray);
+    margin-bottom: 20px;
 
 }
 
@@ -63,6 +66,39 @@
     width: 10px !important;
     height: 10px !important;
     border-radius: 50%;
+  }
+
+  .footer1, .infoFooter1 > a{
+    background-color: var(--btOrange);
+    color: var(--btWhite);
+    margin-bottom: 10px;
+
+  }
+
+  .infoFooter1{
+    max-width:960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+  }
+
+  .infoFooter1 p {
+    margin: 0 10px 10px 10px
+   
+  }
+
+.footer2, .rSociais{
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+ ul, li, a{
+    list-style: none;
+    text-decoration: none;
   }
 
 
