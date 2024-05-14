@@ -1,3 +1,11 @@
+:root{
+    --btWhite: #000;
+    --btGreen-100: #000;
+    --btGreen-200: #000;
+    --btGreen-300: #000;
+ 
+}
+
 .navbar-brand img{
     width:80px;
 }
@@ -12,6 +20,17 @@
     /* recorta a imagem dentro do tamanho */
     object-fit: cover;
     /* object-position:center; */
+}
+
+.titleSection1{
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+}
+
+.titleSection2{
+    display: flex;
+    justify-content: center;
 }
 
 
