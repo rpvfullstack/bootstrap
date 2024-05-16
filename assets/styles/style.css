@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'roboto', 'Helvetica Neue',
+
+}
+
 :root{
     --btBlack: #000;
     --btWhite: #fff;
@@ -32,7 +40,7 @@
 .titleSection2{
     display: flex;
     justify-content: center;
-    margin-top:15rem;
+    margin-top:5rem;
 
 }
 
@@ -62,11 +70,11 @@
 
 }
 
-.carousel-indicators li {
+/* .carousel-indicators li {
     width: 10px !important;
     height: 10px !important;
     border-radius: 50%;
-  }
+  } */
 
   .footer1, .infoFooter1 > a{
     background-color: var(--btOrange);
